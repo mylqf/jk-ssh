@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jk-dao" />
+        <module name="jk-domain" />
+        <module name="jk-exception" />
+        <module name="jk-service" />
+        <module name="jk-utils" />
+        <module name="jk-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jk-dao" target="1.8" />
+      <module name="jk-domain" target="1.8" />
+      <module name="jk-exception" target="1.8" />
+      <module name="jk-parent" target="1.5" />
+      <module name="jk-service" target="1.8" />
+      <module name="jk-utils" target="1.8" />
+      <module name="jk-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
